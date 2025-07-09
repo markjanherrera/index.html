@@ -3,10 +3,7 @@
 <head>
   
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>indoor Plant</title>
   <link rel="stylesheet" href="styles/style.css"/>
-  
-
 </head>
 <body>
  <h1>
