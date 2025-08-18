@@ -12,16 +12,16 @@
 </p>
 
 <img src="https://edube.org/uploads/media/default/0001/04/band-
-photo.jpg", alt="Harmony Heights Band Photo">
+photo.jpg",alt="Harmony Heights Band Photo">
 
 <img src="https://edube.org/uploads/media/default/0001/04/member1-
-amy.jpg", alt="Harmony Heights Vocals/Sampling: Amy Duncan">
+amy.jpg",alt="Harmony Heights Vocals/Sampling: Amy Duncan">
 
 <img src="https://edube.org/uploads/media/default/0001/04/member2-
-john.jpg", alt="Harmony Heights Bass/Guitars: John Smith">
+john.jpg",alt="Harmony Heights Bass/Guitars: John Smith">
 
 <img src="https://edube.org/uploads/media/default/0001/04/member3-
-trevor.jpg", alt="Harmony Heights Drums: Trevor G">
+trevor.jpg",alt="Harmony Heights Drums: Trevor G">
 
 
 <h2>Listen to Our Latest Tracks</h2>
@@ -69,17 +69,10 @@ nce1.mp4" type="video/mp4">
 <label for="subject">Subject:</label><br>
 <input type="text" id="subject" name="subject"><br>
 <br>
-
 <label for="message">Message:</label><br>
 <textarea id="message" name="message"></textarea><br>
 <br>
-
 <input type="submit" value="Send">
-
-
-
 </form>
-
-
 </body>
 </html>
