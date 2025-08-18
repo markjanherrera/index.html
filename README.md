@@ -12,16 +12,16 @@
 </p>
 
 <img src="https://edube.org/uploads/media/default/0001/04/band-
-photo.jpg",alt="Harmony Heights Band Photo">
+photo.jpg">
 
 <img src="https://edube.org/uploads/media/default/0001/04/member1-
-amy.jpg",alt="Harmony Heights Vocals/Sampling: Amy Duncan">
+amy.jpg">
 
 <img src="https://edube.org/uploads/media/default/0001/04/member2-
-john.jpg",alt="Harmony Heights Bass/Guitars: John Smith">
+john.jpg">
 
 <img src="https://edube.org/uploads/media/default/0001/04/member3-
-trevor.jpg",alt="Harmony Heights Drums: Trevor G">
+trevor.jpg">
 
 
 <h2>Listen to Our Latest Tracks</h2>
