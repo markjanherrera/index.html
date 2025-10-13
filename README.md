@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+0<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,6 +46,9 @@
             🎂 happy birthday to meeeeee
         </h1>
         <p class="mt-4 text-gray-600 text-lg sm:text-xl font-medium">Join us for a magical evening to celebrate a major milestone.</p>
+      <div class="image">
+          <img src="null_0(JPG).jpg" height="200" width="300" > 
+      </div>      
     </header>
    <div class="mb-10 overflow-hidden rounded-2xl shadow-xl border-4 border-black-400">          
     </div>
@@ -98,13 +101,11 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
-        <p class="text-center text-sm text-gray-500 mt-2">The map shows the general location of Anabu, Imus, Cavite. Specific directions to the hall will be provided upon RSVP.</p>
+        <p class="text-center text-sm text-gray-500 mt-2">The map</p>
     </section>
     <footer class="text-center pt-8 border-t border-gray-200 mt-8">
-        <p class="text-sm text-gray-500">&copy; 2024 Sofia's Sweet Sixteen. Hope to see you there!</p>
+        <p class="text-sm text-gray-500">&copy;july 13 </p>
     </footer>
-
 </div>
-
 </body>
 </html>
