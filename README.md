@@ -47,7 +47,7 @@
         </h1>
         <p class="mt-4 text-gray-600 text-lg sm:text-xl font-medium">Join us for a magical evening to celebrate a major milestone.</p>
       <div class="image">
-          <img src="null_0(JPG).jpg" height="200" width="300" > 
+          <img src="null_0(JPG).jpg" height="200" width="300" alt="a pic ko tas ng pinsan ko">
       </div>      
     </header>
    <div class="mb-10 overflow-hidden rounded-2xl shadow-xl border-4 border-black-400">          
