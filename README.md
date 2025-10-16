@@ -1,111 +1,141 @@
 <!DOCTYPE html>
-0<html lang="en">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invited! Birthday</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+    <title>birthday invitation</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pacifico&display=swap');        
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #000000;
-            min-height: 100vh;
+            font-family: 'Georgia', serif;
+            background-color: #e9ecef;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 2rem 0;
+            padding: 40px 20px;
+            margin: 0;
+            line-height: 1.6;
         }
-        .title-font {
-            font-family: 'Pacifico', cursive;
-        }
-        .map-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
+        .invitation {
+            background-color: #ffffff;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            border-radius: 0.75rem;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            text-align: center;
         }
-        .map-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
+        .image {
             width: 100%;
-            height: 100%;
-            border: 0;
+            height: 250px;
+            background-color: #a8dadc;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #1d3557;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .content {
+            padding: 30px;
+            text-align: left;
+        }
+        h1 {
+            color: #457b9d;
+            font-size: 2.2em;
+            margin-top: 0;
+            text-align: center;
+        }
+        h2 {
+            color: #1d3557;
+            font-size: 1.4em;
+            border-bottom: 2px solid #f1faee;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        .detail-item {
+            margin-bottom: 10px;
+            display: flex;
+            font-size: 1.1em;
+        }
+        .detail-item strong {
+            color: #457b9d;
+            flex-shrink: 0;
+            width: 100px;
+        }
+        .detail-item span {
+            flex-grow: 1;
+        }
+        a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .bring-list {
+            list-style: none;
+            padding-left: 0;
+            text-align: center;
+        }
+        .bring-list li {
+            background: #f1faee;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
-
-<div class="max-w-4xl w-full mx-auto p-4 sm:p-10 bg-white rounded-3xl shadow-2xl transition-all duration-300 transform hover:shadow-blue-300">
-    <header class="text-center mb-10">
-        <p class="text-2xl sm:text-3xl font-light text-black-500 mb-2 title-font">Let's Celebrate!</p>
-        <h1 class="text-5xl sm:text-7xl font-extrabold text-black-700 tracking-tight title-font">
-            🎂 happy birthday to meeeeee
-        </h1>
-        <p class="mt-4 text-gray-600 text-lg sm:text-xl font-medium">Join us for a magical evening to celebrate a major milestone.</p>
-      <div class="image">
-          <img src="null_0(JPG).jpg" height="200" width="300" alt="a pic ko tas ng pinsan ko">
-      </div>      
-    </header>
-   <div class="mb-10 overflow-hidden rounded-2xl shadow-xl border-4 border-black-400">          
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-center">
-        <div class="p-6 bg-blue-50 rounded-xl shadow-lg border-t-4 border-blue-500">
-            <p class="text-3xl mb-2">📅</p>
-            <h2 class="text-xl font-bold text-black-700 mb-1">Date</h2>
-            <p class="text-black-600 font-extrabold text-2xl">Saturday, December 7th, 2024</p>
-        </div>
-        <div class="p-6 bg-blue-50 rounded-xl shadow-lg border-t-4 border-blue-500">
-            <p class="text-3xl mb-2">⏰</p>
-            <h2 class="text-xl font-bold text-black-700 mb-1">Time</h2>
-            <p class="text-black-600 font-extrabold text-2xl">6:00 PM - 10:00 PM</p>
-        </div>
-        <div class="p-6 bg-blue-50 rounded-xl shadow-lg border-t-4 border-blue-500">
-            <p class="text-3xl mb-2">🏠</p>
-            <h2 class="text-xl font-bold text-black-700 mb-1">Venue</h2>
-            <p class="text-gray-700 text-lg font-medium">The Anabu liwayway homes </p>
-            <p class="text-black-600 font-extrabold text-2xl">Anabu liwayway homes</p>
-        </div>
-    </div>
-    <div class="bg-blue-700 text-white p-8 rounded-xl shadow-xl mb-12">
-        <h2 class="text-3xl font-bold text-center mb-6 text-yellow-300">Your Attendance Matters!</h>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-            <div class="p-4 bg-blue-600 rounded-lg">
-                <p class="text-3xl mb-2">👕</p>
-                <h3 class="font-semibold text-xl mb-1 text-yellow-300">Attire & Gifts</h3>
-                <p class="text-black-100">Dress code is Smart Casual. <strong class="font-bold">No gifts</strong> Your presence is the best gift we could ask for.</p>
+    <div class="invitation">
+        <div class="image">
+          <img src="null_0(JPG).jpg" height="200" width="300" > 
+            </div            
+        <div class="content">
+            <h1> Mark Jan Herrera birthday </h1>           
+            <p style="text-align: center; font-style: italic; color: #1d3557;">
+            </p>
+            <h2>Event Details</h2>
+            <div class="detail-item">
+                <strong>📅 Date:</strong> <span>july 13 </span>
             </div>
-            <div class="p-4 bg-blue-600 rounded-lg">
-                <p class="text-3xl mb-2">📨</p>
-                <h3 class="font-semibold text-xl mb-1 text-yellow-300">RSVP</h3>
-                <p class="text-black-100 mb-2">Kindly confirm your attendance by july 13</p>                  
+            <div class="detail-item">
+                <strong>⏰ Time:</strong> <span>10AM to 3AM</span>
             </div>
-            <div class="p-4 bg-blue-600 rounded-lg">
-                <p class="text-3xl mb-2">🙋</p>
-                <h3 class="font-semibold text-xl mb-1 text-yellow-300">Contact Person</h3>
-                <p class="text-black-100">Contact: mark jan herrera</p>
-                <p class="text-xl font-extrabold">09971435799</p>
+            <div class="detail-item">
+                <strong>📍 Location:</strong> <span>venue liwayway homes<br>BLK 30 LOT 3 on liwaywat homes</span>
             </div>
-        </div>
-    </div>
-    <section class="mb-4">
-        <h2 class="text-3xl font-bold text-blue-700 mb-4 text-center">📍 How to Get to Anabu, Imus, Cavite</h2>
-        <div class="map-container">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15456.985925345717!2d120.91699709999999!3d14.39805565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d4b46c6422d7%3A0x6e9a7e6d013f9f21!2sAnabu%2C%20Imus%2C%20Cavite!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph"
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        <p class="text-center text-sm text-gray-500 mt-2">The map</p>
-    </section>
-    <footer class="text-center pt-8 border-t border-gray-200 mt-8">
-        <p class="text-sm text-gray-500">&copy;july 13 </p>
-    </footer>
-</div>
-</body>
-</html>
+            <div class="detail-item" style="margin-top: 20px;">
+                <strong>🗺 Map Link:</strong> 
+                <span><iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15456.93608221855!2d120.91238475!3d14.39411995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d498f375f45f%3A0x633919057b4279b9!2sLiwayway%20Homes%20Subdivision!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph" 
+        width="200" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+                </span>
+            </div>
+            <h2>What to Bring</h2>
+            <ul class="bring-list">
+                <li>anything You just need to come </li>
+            </ul>
+            <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">
+                Your presence is the only gift we need!
+            </p>
+            <h2>RSVP & Contact</h2>
+            <div class="detail-item">
+                <strong>👤 Contact:</strong> <span>09971435799 cantact me if you got lost</span>
+            </div>
+            <div class="detail-item">
+                <strong>📧 RSVP By:</strong> <span>july 13</span>
+            </div>
+            <p style="text-align: center; margin-top: 30px; font-weight: bold; color: #1d3557;">
+                cant wait for my birthday
+           
